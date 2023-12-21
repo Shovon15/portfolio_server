@@ -29,10 +29,6 @@ app.get("/", (req, res) => {
 	});
 });
 
-app.listen(serverPort, async () => {
-	console.log(`shovon portfolio server running on ${serverPort}`);
-});
-
 // -----------------------------------------------------
 //client error--------------------
 app.use((req, res, next) => {
